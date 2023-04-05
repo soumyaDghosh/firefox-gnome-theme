@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-VERSION=$(curl --silent "https://api.github.com/repos/rafaelmardojai/firefox-gnome-theme/releases/latest" | grep tag_name | cut -d'"' -f4)
-FILENAME=firefox-gnome-theme-$VERSION.tar.gz
+#VERSION=$(curl --silent "https://api.github.com/repos/rafaelmardojai/firefox-gnome-theme/releases/latest" | grep tag_name | cut -d'"' -f4)
+FILENAME=firefox-gnome-theme.tar.gz
 
 (
 
